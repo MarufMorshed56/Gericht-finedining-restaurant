@@ -1,0 +1,49 @@
+.app__video {
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.app__video{
+    width: 100%;
+    max-height: 100vh;
+    padding-top: 99px;  
+}
+
+.vid{
+   width: 100%;
+   max-height: calc(100vh - 100px);
+   object-fit: cover;
+}
+
+.app__video-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+}
+
+.app__video-overlay_circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid var(--color-golden);
+    cursor: pointer;
+}
+
+
+.pause-btn{
+ color: rgba(255, 255, 255, 0.11);
+}
+.app__video-overlay_circle :hover{
+ opacity: 1;
+ 
+}
+.pause-btn :hover{
+  color: white;
+
+}
+
+.display_none{
+    border:0px;
+
+}
